@@ -6,6 +6,7 @@
     padding: 0;
     outline: 0;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 /* Como o html está mais externo, definir o tamnho

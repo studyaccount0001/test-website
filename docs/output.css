@@ -521,6 +521,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 1.25rem;
 }
 
+.top-32 {
+  top: 8rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -574,6 +582,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-\[var\(--section-mobile-size\)\] {
+  margin-top: var(--section-mobile-size);
 }
 
 .block {
@@ -966,6 +978,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2.5rem;
 }
 
+.pt-\[var\(--section-mobile-size\)\] {
+  padding-top: var(--section-mobile-size);
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-64 {
+  padding-top: 16rem;
+}
+
+.pt-\[10\%\] {
+  padding-top: 10%;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1252,9 +1288,9 @@ ul {
   background-color: rgb(120 53 15 / var(--tw-bg-opacity));
 }
 
-.hover\:text-slate9:hover {
+.hover\:text-amber9:hover {
   --tw-text-opacity: 1;
-  color: rgb(105 113 119 / var(--tw-text-opacity));
+  color: rgb(255 178 36 / var(--tw-text-opacity));
 }
 
 .hover\:text-amber-600:hover {
@@ -1407,6 +1443,10 @@ ul {
 }
 
 @media (min-width: 768px) {
+  .md\:mt-\[var\(--section-size\)\] {
+    margin-top: var(--section-size);
+  }
+
   .md\:h-\[var\(--navbar-size\)\] {
     height: var(--navbar-size);
   }
@@ -1431,6 +1471,18 @@ ul {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:pt-\[var\(--section-size\)\] {
+    padding-top: var(--section-size);
+  }
+
+  .md\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 
   .md\:text-sm {

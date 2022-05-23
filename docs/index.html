@@ -82,10 +82,10 @@
                     <nav
                         class="space-x-1 text-xs font-medium sm:space-x-4 md:space-x-8 md:text-sm"
                     >
-                        <a class="hover:text-slate9" href="#sobre">Sobre</a>
-                        <a class="hover:text-slate9" href="#cursos">Cursos</a>
-                        <a class="hover:text-slate9" href="#equipe">Equipe</a>
-                        <a class="hover:text-slate9" href="#contato">Contato</a>
+                        <a class="hover:text-amber9" href="#sobre">Sobre</a>
+                        <a class="hover:text-amber9" href="#cursos">Cursos</a>
+                        <a class="hover:text-amber9" href="#equipe">Equipe</a>
+                        <a class="hover:text-amber9" href="#contato">Contato</a>
                     </nav>
                 </div>
             </div>
@@ -125,7 +125,7 @@
 
                             <a
                                 class="inline-flex items-center gap-2 px-8 py-3 mt-4 bg-transparent text-amber-500 hover:bg-transparent hover:text-amber-600 active:text-amber-500 focus:outline-none focus:ring"
-                                href="#cursos"
+                                href="#sobre"
                             >
                                 <span class="text-sm font-medium">
                                     Saiba mais sobre nós
@@ -201,388 +201,405 @@
 
             <section id="cursos">
                 <div
-                    id="indicators-carousel"
-                    class="relative w-full h-full overflow-hidden"
-                    data-carousel="static"
+                    class="flex flex-col items-center justify-center w-full h-full px-4 sm:px-6 lg:text-left lg:px-8"
                 >
-                    <!-- Carousel wrapper -->
-                    <div class="relative h-full -mt-8 overflow-hidden">
-                        <h1
-                            class="text-3xl font-semibold text-center text-white capitalize lg:text-4xl dark:text-white"
-                        >
-                            Cursos
-                        </h1>
-                        <!-- Item 1 - REACT -->
-                        <div
-                            class="hidden duration-700 ease-in-out"
-                            data-carousel-item="active"
-                        >
-                            <div
-                                class="absolute flex flex-col items-center justify-start w-[90%] h-full text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                    <div
+                        id="indicators-carousel"
+                        class="relative w-full h-full"
+                        data-carousel="static"
+                    >
+                        <!-- Carousel wrapper -->
+                        <div class="relative h-full -mt-8 overflow-hidden">
+                            <h1
+                                class="text-3xl font-semibold text-center text-white capitalize lg:text-4xl dark:text-white"
                             >
-                                <!-- Conteúdo -->
-                                <div class="w-full overflow-y-scroll rounded">
+                                Cursos
+                            </h1>
+                            <!-- Item 1 - REACT -->
+                            <div
+                                class="hidden duration-700 ease-in-out"
+                                data-carousel-item="active"
+                            >
+                                <div
+                                    class="absolute flex flex-col items-center justify-start w-[90%] h-full text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                >
+                                    <!-- Conteúdo -->
                                     <div
-                                        class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8"
+                                        class="w-full overflow-y-scroll rounded"
                                     >
                                         <div
-                                            class="max-w-lg mx-auto text-center"
+                                            class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8"
                                         >
-                                            <h2
-                                                class="text-3xl font-bold text-amber-400 sm:text-4xl"
+                                            <div
+                                                class="max-w-lg mx-auto text-center"
                                             >
-                                                Curso de ReactJS
+                                                <h2
+                                                    class="text-3xl font-bold text-amber-400 sm:text-4xl"
+                                                >
+                                                    Curso de ReactJS
+                                                </h2>
+
+                                                <p class="mt-4 text-gray-300">
+                                                    Tecnologia aplicada para o
+                                                    desenvolvimento de
+                                                    plataformas e sites. Entenda
+                                                    como a navegação na internet
+                                                    é projetada.
+                                                </p>
+                                            </div>
+
+                                            <div
+                                                class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3"
+                                            >
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
+                                                >
+                                                    <i
+                                                        class="fa-brands fa-react"
+                                                    ></i>
+
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Fundamentos do ReactJS
+                                                    </h3>
+
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
+
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-code-branch"
+                                                    ></i>
+
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Gerenciamento de estados
+                                                    </h3>
+
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
+
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-user-lock"
+                                                    ></i>
+
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Fluxo de autenticação
+                                                    </h3>
+
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <h2
+                                                class="mt-8 font-bold text-white text-1xl sm:text-2xl"
+                                            >
+                                                Para quem o curso é destinado?
                                             </h2>
 
-                                            <p class="mt-4 text-gray-300">
-                                                Tecnologia aplicada para o
-                                                desenvolvimento de plataformas e
-                                                sites. Entenda como a navegação
-                                                na internet é projetada.
-                                            </p>
-                                        </div>
-
-                                        <div
-                                            class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3"
-                                        >
                                             <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
+                                                class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3"
                                             >
-                                                <i
-                                                    class="fa-brands fa-react"
-                                                ></i>
-
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
                                                 >
-                                                    Fundamentos do ReactJS
-                                                </h3>
+                                                    <i
+                                                        class="fa-solid fa-database"
+                                                    ></i>
 
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Programadores
+                                                    </h3>
+
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
+
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
                                                 >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
-                                                </p>
-                                            </div>
+                                                    <i
+                                                        class="fa-solid fa-server"
+                                                    ></i>
 
-                                            <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
-                                            >
-                                                <i
-                                                    class="fa-solid fa-code-branch"
-                                                ></i>
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Designers
+                                                    </h3>
 
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
+
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
                                                 >
-                                                    Gerenciamento de estados
-                                                </h3>
+                                                    <i
+                                                        class="fa-solid fa-file"
+                                                    ></i>
 
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
-                                                >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
-                                                </p>
-                                            </div>
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Estudantes de cursos da
+                                                        área de TI
+                                                    </h3>
 
-                                            <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
-                                            >
-                                                <i
-                                                    class="fa-solid fa-user-lock"
-                                                ></i>
-
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
-                                                >
-                                                    Fluxo de autenticação
-                                                </h3>
-
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
-                                                >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
-                                                </p>
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-
-                                        <h2
-                                            class="mt-8 font-bold text-white text-1xl sm:text-2xl"
-                                        >
-                                            Para quem o curso é destinado?
-                                        </h2>
-
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 2 - ENGENHARIA DE DADOS -->
+                            <div
+                                class="hidden duration-700 ease-in-out"
+                                data-carousel-item="active"
+                            >
+                                <div
+                                    class="absolute flex flex-col items-center justify-start w-[90%] h-full text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                >
+                                    <!-- Conteúdo -->
+                                    <div
+                                        class="w-full overflow-y-scroll rounded"
+                                    >
                                         <div
-                                            class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3"
+                                            class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8"
                                         >
                                             <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
+                                                class="max-w-lg mx-auto text-center"
                                             >
-                                                <i
-                                                    class="fa-solid fa-database"
-                                                ></i>
-
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
+                                                <h2
+                                                    class="text-3xl font-bold text-amber-400 sm:text-4xl"
                                                 >
-                                                    Programadores
-                                                </h3>
+                                                    Curso de Engenharia de Dados
+                                                </h2>
 
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
-                                                >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
+                                                <p class="mt-4 text-gray-300">
+                                                    Etapa fundamental que
+                                                    antecede a Ciência de Dados.
+                                                    Aprenda com casos reais da
+                                                    sua empresa!
                                                 </p>
                                             </div>
 
                                             <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
+                                                class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3"
                                             >
-                                                <i
-                                                    class="fa-solid fa-server"
-                                                ></i>
-
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
                                                 >
-                                                    Designers
-                                                </h3>
+                                                    <i
+                                                        class="fa-solid fa-database"
+                                                    ></i>
 
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Pré-processamento e
+                                                        limpeza de dados
+                                                    </h3>
+
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
+
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
                                                 >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
-                                                </p>
+                                                    <i
+                                                        class="fa-solid fa-server"
+                                                    ></i>
+
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Manipulação de grandes
+                                                        bases de dados
+                                                    </h3>
+
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
+
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-file"
+                                                    ></i>
+
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Noções básicas de
+                                                        operações em arquivos
+                                                    </h3>
+
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
                                             </div>
 
-                                            <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
+                                            <h2
+                                                class="mt-8 font-bold text-white text-1xl sm:text-2xl"
                                             >
-                                                <i class="fa-solid fa-file"></i>
+                                                Para quem o curso é destinado?
+                                            </h2>
 
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
+                                            <div
+                                                class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3"
+                                            >
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
                                                 >
-                                                    Estudantes de cursos da área
-                                                    de TI
-                                                </h3>
+                                                    <i
+                                                        class="fa-solid fa-database"
+                                                    ></i>
 
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Analistas de novos
+                                                        mercados
+                                                    </h3>
+
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
+
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
                                                 >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
-                                                </p>
+                                                    <i
+                                                        class="fa-solid fa-server"
+                                                    ></i>
+
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Administradores de
+                                                        empresas
+                                                    </h3>
+
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
+
+                                                <div
+                                                    class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-file"
+                                                    ></i>
+
+                                                    <h3
+                                                        class="mt-4 text-xl font-bold text-white"
+                                                    >
+                                                        Estudantes de cursos que
+                                                        exigem análise de dados
+                                                    </h3>
+
+                                                    <p
+                                                        class="mt-1 text-sm text-gray-300"
+                                                    >
+                                                        <!-- EDITA AQUI HENRIQUE -->
+                                                        Lorem ipsum dolor sit
+                                                        amet, consectetur
+                                                        adipisicing elit.
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Item 2 - ENGENHARIA DE DADOS -->
-                        <div
-                            class="hidden duration-700 ease-in-out"
-                            data-carousel-item="active"
-                        >
-                            <div
-                                class="absolute flex flex-col items-center justify-start w-[90%] h-full text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            >
-                                <!-- Conteúdo -->
-                                <div class="w-full overflow-y-scroll rounded">
-                                    <div
-                                        class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8"
-                                    >
-                                        <div
-                                            class="max-w-lg mx-auto text-center"
-                                        >
-                                            <h2
-                                                class="text-3xl font-bold text-amber-400 sm:text-4xl"
-                                            >
-                                                Curso de Engenharia de Dados
-                                            </h2>
-
-                                            <p class="mt-4 text-gray-300">
-                                                Etapa fundamental que antecede a
-                                                Ciência de Dados. Aprenda com
-                                                casos reais da sua empresa!
-                                            </p>
-                                        </div>
-
-                                        <div
-                                            class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3"
-                                        >
-                                            <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
-                                            >
-                                                <i
-                                                    class="fa-solid fa-database"
-                                                ></i>
-
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
-                                                >
-                                                    Pré-processamento e limpeza
-                                                    de dados
-                                                </h3>
-
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
-                                                >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
-                                                </p>
-                                            </div>
-
-                                            <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
-                                            >
-                                                <i
-                                                    class="fa-solid fa-server"
-                                                ></i>
-
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
-                                                >
-                                                    Manipulação de grandes bases
-                                                    de dados
-                                                </h3>
-
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
-                                                >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
-                                                </p>
-                                            </div>
-
-                                            <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
-                                            >
-                                                <i class="fa-solid fa-file"></i>
-
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
-                                                >
-                                                    Noções básicas de operações
-                                                    em arquivos
-                                                </h3>
-
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
-                                                >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        <h2
-                                            class="mt-8 font-bold text-white text-1xl sm:text-2xl"
-                                        >
-                                            Para quem o curso é destinado?
-                                        </h2>
-
-                                        <div
-                                            class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3"
-                                        >
-                                            <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
-                                            >
-                                                <i
-                                                    class="fa-solid fa-database"
-                                                ></i>
-
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
-                                                >
-                                                    Analistas de novos mercados
-                                                </h3>
-
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
-                                                >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
-                                                </p>
-                                            </div>
-
-                                            <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
-                                            >
-                                                <i
-                                                    class="fa-solid fa-server"
-                                                ></i>
-
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
-                                                >
-                                                    Administradores de empresas
-                                                </h3>
-
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
-                                                >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
-                                                </p>
-                                            </div>
-
-                                            <div
-                                                class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
-                                            >
-                                                <i class="fa-solid fa-file"></i>
-
-                                                <h3
-                                                    class="mt-4 text-xl font-bold text-white"
-                                                >
-                                                    Estudantes de cursos que
-                                                    exigem análise de dados
-                                                </h3>
-
-                                                <p
-                                                    class="mt-1 text-sm text-gray-300"
-                                                >
-                                                    <!-- EDITA AQUI HENRIQUE -->
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Slider indicators -->
-                    <!-- <div
+                        <!-- Slider indicators -->
+                        <!-- <div
                         class="absolute z-30 flex p-2 space-x-3 -translate-x-1/2 rounded bg-amber-900 bottom-5 left-1/2"
                     >
                         <button
@@ -600,136 +617,140 @@
                             data-carousel-slide-to="1"
                         ></button>
                     </div> -->
-                    <!-- Slider controls -->
-                    <button
-                        type="button"
-                        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                        data-carousel-prev
-                    >
-                        <span
-                            class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-amber-700 dark:bg-gray-800/30 group-hover:bg-amber-900 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                        <!-- Slider controls -->
+                        <button
+                            type="button"
+                            class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                            data-carousel-prev
                         >
-                            <i class="fas fa-arrow-left text-amber-500"></i>
-                            <span class="hidden">Previous</span>
-                        </span>
-                    </button>
-                    <button
-                        type="button"
-                        class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                        data-carousel-next
-                    >
-                        <span
-                            class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-amber-700 dark:bg-gray-800/30 group-hover:bg-amber-900 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                            <span
+                                class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-amber-700 dark:bg-gray-800/30 group-hover:bg-amber-900 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                            >
+                                <i class="fas fa-arrow-left text-amber-500"></i>
+                                <span class="hidden">Previous</span>
+                            </span>
+                        </button>
+                        <button
+                            type="button"
+                            class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                            data-carousel-next
                         >
-                            <i class="fas fa-arrow-right text-amber-500"></i>
-                            <span class="hidden">Next</span>
-                        </span>
-                    </button>
+                            <span
+                                class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-amber-700 dark:bg-gray-800/30 group-hover:bg-amber-900 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                            >
+                                <i
+                                    class="fas fa-arrow-right text-amber-500"
+                                ></i>
+                                <span class="hidden">Next</span>
+                            </span>
+                        </button>
+                    </div>
                 </div>
             </section>
 
             <section id="equipe">
-                <div class="h-full px-6 py-10 mx-auto">
-                    <h1
-                        class="mb-8 text-3xl font-semibold text-center text-white capitalize lg:text-4xl dark:text-white"
-                    >
-                        Equipe
-                    </h1>
-
-                    <div
-                        class="grid grid-cols-1 gap-4 xl:mt-16 md:grid-cols-3 xl:grid-cols-3"
-                    >
-                        <div
-                            class="flex flex-col items-center p-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
+                <div class="h-full px-6 py-10">
+                    <div class="flex flex-col items-center justify-center">
+                        <h1
+                            class="mb-4 text-3xl font-semibold text-center text-white capitalize lg:text-4xl"
                         >
-                            <img
-                                class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                                src="https://i.ibb.co/ZMWjpvH/Henrique.jpg"
-                                alt="Henrique"
-                            />
-
-                            <h1
-                                class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
+                            Equipe
+                        </h1>
+                        <div
+                            class="grid grid-cols-1 gap-4 xl:mt-16 md:grid-cols-3 xl:grid-cols-3"
+                        >
+                            <div
+                                class="flex flex-col items-center justify-between p-8 text-center transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group md:text-center hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
                             >
-                                Henrique Zanin
-                            </h1>
+                                <img
+                                    class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+                                    src="https://i.ibb.co/ZMWjpvH/Henrique.jpg"
+                                    alt="Henrique"
+                                />
 
-                            <p
-                                class="mt-2 text-gray-300 capitalize dark:text-gray-300 group-hover:text-gray-300"
-                            >
-                                Engenheiro de Dados
-                            </p>
-
-                            <div class="flex mt-3 -mx-2">
-                                <a
-                                    href="#"
-                                    class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
-                                    aria-label="Github"
+                                <h1
+                                    class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
                                 >
-                                    <i class="fab fa-github"></i>
-                                </a>
+                                    Henrique Zanin
+                                </h1>
+
+                                <p
+                                    class="mt-2 text-gray-300 capitalize dark:text-gray-300 group-hover:text-gray-300"
+                                >
+                                    Engenheiro de Dados
+                                </p>
+
+                                <div class="flex mt-3 -mx-2">
+                                    <a
+                                        href="#"
+                                        class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                                        aria-label="Github"
+                                    >
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div
-                            class="flex flex-col items-center p-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
-                        >
-                            <img
-                                class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                                src="https://i.ibb.co/ssCTMtB/Marin.jpg"
-                                alt="Gabriel"
-                            />
-
-                            <h1
-                                class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
+                            <div
+                                class="flex flex-col items-center justify-between p-8 text-center transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group md:text-center hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
                             >
-                                Gabriel Marin
-                            </h1>
+                                <img
+                                    class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+                                    src="https://i.ibb.co/ssCTMtB/Marin.jpg"
+                                    alt="Gabriel"
+                                />
 
-                            <p
-                                class="mt-2 text-gray-300 dark:text-gray-300 group-hover:text-gray-300"
-                            >
-                                Especialista em React
-                            </p>
-
-                            <div class="flex mt-3 -mx-2">
-                                <a
-                                    href="#"
-                                    class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
-                                    aria-label="Github"
+                                <h1
+                                    class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
                                 >
-                                    <i class="fab fa-github"></i>
-                                </a>
+                                    Gabriel Marin
+                                </h1>
+
+                                <p
+                                    class="mt-2 text-gray-300 dark:text-gray-300 group-hover:text-gray-300"
+                                >
+                                    Especialista em React
+                                </p>
+
+                                <div class="flex mt-3 -mx-2">
+                                    <a
+                                        href="#"
+                                        class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                                        aria-label="Github"
+                                    >
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div
-                            class="flex flex-col items-center p-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
-                        >
-                            <img
-                                class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                                src="https://i.ibb.co/89Ntgff/Paulo.jpg"
-                                alt="Gabriel"
-                            />
-
-                            <h1
-                                class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
+                            <div
+                                class="flex flex-col items-center justify-between p-8 text-center transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group md:text-center hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
                             >
-                                Paulo Soares
-                            </h1>
+                                <img
+                                    class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+                                    src="https://i.ibb.co/89Ntgff/Paulo.jpg"
+                                    alt="Gabriel"
+                                />
 
-                            <p
-                                class="mt-2 text-gray-300 dark:text-gray-300 group-hover:text-gray-300"
-                            >
-                                Especialista em UI/UX
-                            </p>
-
-                            <div class="flex mt-3 -mx-2">
-                                <a
-                                    href="#"
-                                    class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
-                                    aria-label="Github"
+                                <h1
+                                    class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
                                 >
-                                    <i class="fab fa-github"></i>
-                                </a>
+                                    Paulo Soares
+                                </h1>
+
+                                <p
+                                    class="mt-2 text-gray-300 dark:text-gray-300 group-hover:text-gray-300"
+                                >
+                                    Especialista em Design de Interface
+                                </p>
+
+                                <div class="flex mt-3">
+                                    <a
+                                        href="#"
+                                        class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                                        aria-label="Github"
+                                    >
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

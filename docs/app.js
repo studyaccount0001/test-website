@@ -1,14 +1,37 @@
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load("particles-js", "particlesjs-config.json", function () {
-    console.log("callback - particles.js config loaded");
-});
-
-function scrollTo(hash) {
-    const element = document.getElementsByName(`#${hash}`);
-    const topPos = element.getBoundingClientRect().top + window.pageYOffset;
-
-    window.scrollTo({
-        top: topPos, // scroll so that the element is at the top of the view
-        behavior: "smooth", // smooth scroll
+function particlesJSLoad() {
+    particlesJS.load("particles-js", "particlesjs-config.json", function () {
+        console.log("callback - particles.js config loaded");
     });
 }
+
+function setupPage() {
+    let sections = document.querySelectorAll("section");
+    const navLink = document.querySelectorAll("header a");
+    const parentSection = document.getElementById("sections");
+
+    parentSection.addEventListener("scroll", () => {
+        /* highlight section nav link when on section */
+        for (let i = 0; i < sections.length; i++) {
+            if (
+                sections[i].offsetTop - parentSection.scrollTop <=
+                parentSection.clientHeight
+            ) {
+                for (let j = 0; j < navLink.length; j++) {
+                    navLink[j].classList.remove("active");
+                    if (
+                        sections[i].getAttribute("id") ===
+                        navLink[j].getAttribute("href").substring(1)
+                    ) {
+                        navLink[j].classList.add("active");
+                    } else {
+                        navLink[j].classList.remove("active");
+                    }
+                }
+            }
+        }
+    });
+}
+
+particlesJSLoad();
+setupPage();

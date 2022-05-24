@@ -25,7 +25,7 @@
                     class="flex items-center justify-center gap-4"
                 >
                     <div class="w-[125px] h-[auto]">
-                        <a href="#hero" class="fill-white">
+                        <a href="#main" class="fill-white">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 784.31 206.85"
@@ -92,9 +92,9 @@
         </header>
 
         <div id="sections">
-            <section id="hero">
+            <section id="main">
                 <div
-                    class="max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex"
+                    class="max-w-screen-xl px-4 py-32 mx-auto text-white lg:h-screen lg:items-center lg:flex"
                 >
                     <div class="max-w-xl mx-auto text-center">
                         <h1 class="text-3xl font-extrabold sm:text-5xl">
@@ -668,109 +668,117 @@
             </section>
 
             <section id="equipe">
-                <div class="h-full px-6 py-10">
-                    <div class="flex flex-col items-center justify-center">
+                <div class="h-full px-4">
+                    <div class="sm:translate-y-1/2">
                         <h1
-                            class="mb-4 text-3xl font-semibold text-center text-white capitalize lg:text-4xl"
+                            class="mb-4 text-3xl font-semibold text-center text-white lg:text-4xl"
                         >
                             Equipe
                         </h1>
-                        <div
-                            class="grid grid-cols-1 gap-4 xl:mt-16 md:grid-cols-3 xl:grid-cols-3"
+                        <h2
+                            class="mb-4 text-center text-slate11 text-md font-regular lg:text-lg"
                         >
-                            <div
-                                class="flex flex-col items-center justify-between p-8 text-center transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group md:text-center hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
+                            Conheça nossos instrutores
+                        </h2>
+                        <div
+                            class="grid grid-cols-1 gap-4 xl:mt-6 md:grid-cols-3 xl:grid-cols-3"
+                        >
+                            <a
+                                href="https://www.linkedin.com/in/henrique-gomes-zanin-8210b915a/"
+                                target="_blank"
+                                class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                                aria-label="Github"
                             >
-                                <img
-                                    class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                                    src="https://i.ibb.co/ZMWjpvH/Henrique.jpg"
-                                    alt="Henrique"
-                                />
-
-                                <h1
-                                    class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
+                                <div
+                                    class="flex flex-col items-center justify-between p-8 text-center transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group md:text-center hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
                                 >
-                                    Henrique Zanin
-                                </h1>
+                                    <img
+                                        class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+                                        src="https://i.ibb.co/ZMWjpvH/Henrique.jpg"
+                                        alt="Henrique"
+                                    />
 
-                                <p
-                                    class="mt-2 text-gray-300 capitalize dark:text-gray-300 group-hover:text-gray-300"
-                                >
-                                    Engenheiro de Dados
-                                </p>
-
-                                <div class="flex mt-3 -mx-2">
-                                    <a
-                                        href="#"
-                                        class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
-                                        aria-label="Github"
+                                    <h1
+                                        class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
                                     >
-                                        <i class="fab fa-github"></i>
-                                    </a>
+                                        Henrique Zanin
+                                    </h1>
+
+                                    <p
+                                        class="mt-2 text-gray-300 dark:text-gray-300 group-hover:text-gray-300"
+                                    >
+                                        Engenheiro de Dados
+                                    </p>
+
+                                    <div class="flex mt-3 -mx-2">
+                                        <i class="text-3xl fab fa-linkedin"></i>
+                                    </div>
                                 </div>
-                            </div>
-                            <div
-                                class="flex flex-col items-center justify-between p-8 text-center transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group md:text-center hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/gabriel-marin-69499517b/"
+                                target="_blank"
+                                class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                                aria-label="Github"
                             >
-                                <img
-                                    class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                                    src="https://i.ibb.co/ssCTMtB/Marin.jpg"
-                                    alt="Gabriel"
-                                />
-
-                                <h1
-                                    class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
+                                <div
+                                    class="flex flex-col items-center justify-between p-8 text-center transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group md:text-center hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
                                 >
-                                    Gabriel Marin
-                                </h1>
+                                    <img
+                                        class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+                                        src="https://i.ibb.co/ssCTMtB/Marin.jpg"
+                                        alt="Gabriel"
+                                    />
 
-                                <p
-                                    class="mt-2 text-gray-300 dark:text-gray-300 group-hover:text-gray-300"
-                                >
-                                    Especialista em React
-                                </p>
-
-                                <div class="flex mt-3 -mx-2">
-                                    <a
-                                        href="#"
-                                        class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
-                                        aria-label="Github"
+                                    <h1
+                                        class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
                                     >
-                                        <i class="fab fa-github"></i>
-                                    </a>
+                                        Gabriel Marin
+                                    </h1>
+
+                                    <p
+                                        class="mt-2 text-gray-300 dark:text-gray-300 group-hover:text-gray-300"
+                                    >
+                                        Especialista em React
+                                    </p>
+
+                                    <div class="flex mt-3 -mx-2">
+                                        <i class="text-3xl fab fa-linkedin"></i>
+                                    </div>
                                 </div>
-                            </div>
-                            <div
-                                class="flex flex-col items-center justify-between p-8 text-center transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group md:text-center hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/o-paulosoares"
+                                target="_blank"
+                                class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                                aria-label="Github"
                             >
-                                <img
-                                    class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                                    src="https://i.ibb.co/89Ntgff/Paulo.jpg"
-                                    alt="Gabriel"
-                                />
-
-                                <h1
-                                    class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
+                                <div
+                                    class="flex flex-col items-center justify-between p-8 text-center transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group md:text-center hover:bg-amber-900 dark:border-gray-700 dark:hover:border-transparent"
                                 >
-                                    Paulo Soares
-                                </h1>
+                                    <img
+                                        class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+                                        src="https://i.ibb.co/89Ntgff/Paulo.jpg"
+                                        alt="Gabriel"
+                                    />
 
-                                <p
-                                    class="mt-2 text-gray-300 dark:text-gray-300 group-hover:text-gray-300"
-                                >
-                                    Especialista em Design de Interface
-                                </p>
-
-                                <div class="flex mt-3">
-                                    <a
-                                        href="#"
-                                        class="mx-2 text-gray-300 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
-                                        aria-label="Github"
+                                    <h1
+                                        class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white"
                                     >
-                                        <i class="fab fa-github"></i>
-                                    </a>
+                                        Paulo Soares
+                                    </h1>
+
+                                    <p
+                                        class="mt-2 text-gray-300 dark:text-gray-300 group-hover:text-gray-300"
+                                    >
+                                        Especialista em Design de Interfaces
+                                    </p>
+
+                                    <div class="flex mt-3">
+                                        <i class="text-3xl fab fa-linkedin"></i>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -778,11 +786,6 @@
 
             <section id="contato">
                 <div class="h-full text-white parent">
-                    <h1
-                        class="mb-8 text-3xl font-semibold text-center text-white capitalize lg:text-4xl dark:text-white"
-                    >
-                        Contato
-                    </h1>
                     <div
                         class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-amber-500/10 hover:border-amber-500/10"
                     >
